@@ -32,6 +32,13 @@ let update = () => {
         setTimeout(update, step.ms);
     else {
         header.classList.add('top');
+        showElements();
     }
 }
 update();
+
+let showElements = () => {
+    let vantaJS = document.querySelector('#vanta');
+    vantaJS.hidden = false;
+    effect.resize();
+}
