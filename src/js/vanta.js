@@ -5,5 +5,6 @@ VANTA.HALO({
     gyroControls: false,
     minHeight: 200.00,
     minWidth: 200.00,
-    xOffset: 0.18
+    xOffset: 0.18,
+    size: 0.3
 })
