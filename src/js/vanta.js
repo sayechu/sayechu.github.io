@@ -1,4 +1,4 @@
-VANTA.HALO({
+var effect = VANTA.HALO({
     el: "#vanta",
     mouseControls: true,
     touchControls: true,
